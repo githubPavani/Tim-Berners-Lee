@@ -93,10 +93,14 @@ p {
     font-family: sans-serif;
     position: fixed;
     top: 10px;
-    right: 30px;
+    right: 20px;
     z-index: 10;
     cursor: pointer;
 
+}
+
+.menu:hover {
+    transform: scale(1.1);
 }
 
 .links {
@@ -105,14 +109,14 @@ p {
     padding-left: 9px;
     padding-right: 9px;
     padding-bottom: 5px;
-    font-family: fantasy;
+    font-family: arial;
     font-size: 20px;
 }
 
 
-
 .links:hover {
     background-color: dodgerblue;
+    text-decoration: underline !important;
 }
 
 a {
@@ -124,5 +128,13 @@ a {
 }
 
 a:hover {
+    text-decoration-line: underline !important;
+}
+
+a:hover {
     color: palevioletred;
+}
+
+#contact {
+    background-color: red;
 }
